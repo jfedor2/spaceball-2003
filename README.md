@@ -26,7 +26,7 @@ Flash the Pico with the [spaceball.uf2](spaceball.uf2) firmware the usual way: h
 
 Install 3DxWare on your computer and enjoy.
 
-Buttons on the Spaceball (`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`) are mapped to the following buttons on the emulated SpaceMouse Pro: `1`, `2`, `3`, `4`, `Esc`, `Ctrl`, `Alt`, `Shift`. You can assign functions to them in 3Dconnexion's software.
+Buttons on the Spaceball (`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, pick button) are mapped to the following buttons on the emulated SpaceMouse Pro: `1`, `2`, `3`, `4`, `Esc`, `Ctrl`, `Alt`, `Shift`, `Menu`. You can assign functions to them in 3Dconnexion's software.
 
 ## How to compile the firmware
 

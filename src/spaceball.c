@@ -109,7 +109,7 @@ int main() {
                 }
 
                 if ((buf[0] == 'K') && (idx == 4)) {
-                    uint16_t buttons = (buf[2] & 0x0F) | ((buf[1] & 0x0F) << 4);
+                    uint16_t buttons = (buf[2] & 0x0F) | ((buf[1] & 0x1F) << 4);
                     memset(buttons_report, 0, sizeof(buttons_report));
 
                     for (int i = 0; i < 12; i++) {
